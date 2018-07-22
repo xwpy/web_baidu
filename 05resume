@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Resume</title>
+	<style>
+		#resume{
+			margin: 0 auto;
+			background:url(D:\百度前端技术学院项目\零基础\03resume\beautyg.jpg) no-repeat fixed center top;
+		}
+		#name{
+			color:red;
+			font-family: Miscrosoft Yahei;
+			font-style: italic;
+			font-weight: bold;
+			font-size:14px;
+			text-align:center;
+			text-decoration: underline;
+			text-indent: 2px;
+			line-height: 5px;
+			text-shadow:5px 5px 5px red;
+		}
+		#box1{
+			width:100px;
+			height:100px;
+			border-color:red;
+			border-style:dashed;
+			border-width:5px;
+		}
+		#box1 ul{
+			list-style-type: circle;
+			list-style-image:url("http://www.w3school.com.cn/i/eg_arrow.gif");
+		}
+		#box1 ul>li a:link{
+			color:blue;
+		}
+		#box1 ul>li a:visited{
+			color: red;
+		}
+		#box1 ul>li a:hover{
+			color:green;
+		}
+		#box1 ul>li a:active{
+			color:yellow;
+		}		
+	</style>
+</head>
+<body>
+	<div id="resume">
+		<table width="500px" height = "100px" border="1px" cellpadding="0" cellspacing="0">
+			<tr id="name">
+				<td>姓名：</td>
+				<td>谢武</td>
+			</tr>
+			<tr id="degree">
+				<td>学历：</td>
+				<td>本科</td>
+			</tr>
+			<tr id="english">
+				<td>外语：</td>
+				<td>CET-4</td>
+			</tr>
+			<tr id="mobile">
+				<td>手机：</td>
+				<td>18158911709</td>
+			</tr>
+		</table>
+	</div>
+	<div id="box1">
+		<ul>
+			<li><a href="">1</a></li>
+			<li>2</li>
+			<li>3</li>
+			<input type="text">
+		</ul>		
+	</div>
+</body>
+</html>

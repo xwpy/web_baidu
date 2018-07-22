@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Demo</h1>
+	<p id = "who1">你是哪个?</p>
+	<input id="input1" type="text" value="input your name">
+	<button id="button1">提交</button>
+	<script type = "text/javascript">
+		document.getElementById("button1").onclick =	function(){
+			document.getElementById("who1").innerHTML = "helllo " + document.getElementById("input1").value;
+
+		}
+	</script>
+</body>
+</html>
